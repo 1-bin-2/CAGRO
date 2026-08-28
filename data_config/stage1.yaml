@@ -1,0 +1,10 @@
+datasets:
+  - json_path: data_config/emer_rewrite.json
+    data_root: /data0/data/videos/
+    sampling_strategy: end:50%
+  - json_path: data_config/social_iq_v2_rewrite.json
+    data_root: /data0/data/videos/
+    sampling_strategy: end:50%
+  - json_path: data_config/Video-R1_rewrite.json
+    data_root: /data2/codefile/Video-R1_LZJTU/src/r1-v/
+    sampling_strategy: end:30%

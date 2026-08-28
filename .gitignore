@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.bak-*
+*.bak_*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+output/
+outputs/
+runs/
+checkpoints/
+wandb/
+logs/
+tmp/
+
+# Large local annotations/rollouts and media are not source code. Publish a
+# documented dataset manifest separately after checking source licenses.
+data_config/*.json
+videos/
+
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+
+# Local pre-CAGRO experiment launchers retain obsolete CLI flags. Keep them on
+# disk for provenance, but do not publish them as supported entry points.
+run_scripts/run_grpo_qwenomni_stage2-care.sh
+run_scripts/run_grpo_qwenomni_stage3*.sh
+run_scripts/run_rl1_*.sh

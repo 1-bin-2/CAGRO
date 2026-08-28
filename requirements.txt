@@ -1,0 +1,17 @@
+accelerate
+av
+datasets
+decord
+deepspeed
+librosa
+nltk
+numpy
+packaging
+pillow
+pyyaml
+qwen-omni-utils
+qwen-vl-utils
+requests
+rouge-score
+transformers
+trl

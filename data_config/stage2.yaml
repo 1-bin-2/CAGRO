@@ -1,0 +1,4 @@
+datasets:
+  - json_path: data_config/rl1_uid04268_sft_clean.json
+    data_root: videos
+    sampling_strategy: all
